@@ -1,0 +1,28 @@
+<!-- new.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" href="public/styles.css" />
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+    <h1>Create New Note</h1>
+    </div>
+    <form id="post-form" class="create-note">
+        <!-- <label for="title">Title: </label> -->
+        <input type="text" id="title" name="title" placeholder="title..." maxlength="10" required><br><br>
+
+        <!-- <label for="content">Content: </label><br> -->
+        <textarea id="content" name="content" rows="4" cols="50" maxlength="30" placeholder="content..." required></textarea>
+        <br>
+
+        <button type="submit">Add</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
